@@ -21,7 +21,7 @@ export default defineConfig({
     emptyOutDir: true,
   },
   define: {
-    'import.meta.env.VITE_API_URL': JSON.stringify('http://localhost:8000'),
+    'import.meta.env.VITE_API_URL': JSON.stringify('http://localhost:5678/webhook-test/test-webhook'),
     'import.meta.env.VITE_FRONTEND_URL': JSON.stringify('http://localhost:5173'),
   },
 });
